@@ -1,0 +1,28 @@
+/* mobile  */
+@media screen and (max-width:576px) {
+    .twoside {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+/* tab  */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .twoside {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:993px) and (max-width:1400px) {
+    .twoside {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
